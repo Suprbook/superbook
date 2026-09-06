@@ -1,4 +1,4 @@
-function Card({ title, description, image }) {
+function IdentityCard({ title, description, image }) {
   return (
     <div className="max-w-sm bg-white shadow-md rounded-lg overflow-hidden m-4">
       <img
@@ -20,4 +20,4 @@ function Card({ title, description, image }) {
   );
 }
 
-export default Card;
+export default IdentityCard;
